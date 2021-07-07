@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+    <title>API</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div style="background-image:url('back.jpg');
+                background-size:cover;">
+
+    <div class= "container">
+        <h1 class= "text-center">Covid19 Live Cases Tracker API</h1>
+        <br><br>
+        <table class= "table table-striped">
+            <thead style="background-color:white;">
+                <tr>
+                    <th>Total Cases</th>
+                    <th>Total Deaths</th>
+                    <th>Total Recovered</th>
+                    <th>Newly Confirmed Deaths</th>
+                    <th>Newly Confirmed Cases</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="data" style="background-color:white"></tr>
+            </tbody>
+        </table>
+        <br>
+        <button onClick="refreshData()" class="btn btn-success btn-block"> Refresh Data </button> 
+    
+    <br><br>
+
+    <div class="row">
+        <div class="col-sm-4">
+          <div class="thumbnail">
+              <img src="1.jpg" style="width:500px;height:250px;">
+              <div class="caption">
+                <p>Often when you think you're at the end of something, you're at the beginning of something else</p>
+              </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <img src="2.jpg" style="width:500px;height:250px;">
+                <div class="caption">
+                  <p>Keep your face always toward the sunshine, and shadows will fall behind you</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <img src="3.jpg" style="width:500px;height:250px;">
+                <div class="caption">
+                  <p>Once you replace negative thoughts with positive ones, you’ll start having positive results</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    </div>
+    <script src="code.js"></script>
+    </div>
+</body>
+</html>
