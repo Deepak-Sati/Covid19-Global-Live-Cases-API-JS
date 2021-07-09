@@ -2,10 +2,9 @@
 
 <b>Covid19 API that tells live India total cases, total deaths, total recovered, newly confirmed deaths and newly confirmed cases</b>
 
-https://github.com/Deepak-Sati/Covid19-India-Live-Cases-API-JS/blob/main/overview.png
+![](overview.png)
 
-API
-
+<br>API
 https://covid19api.com/
 
 <br>
