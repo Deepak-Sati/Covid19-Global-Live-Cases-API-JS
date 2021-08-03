@@ -1,6 +1,6 @@
 # Covid19-Live-Cases-API-JS
 
-<b>Covid19 API that tells live India total cases, total deaths, total recovered, newly confirmed deaths and newly confirmed cases</b>
+<b>Covid19 API that tells live Global total cases, total deaths, total recovered, newly confirmed deaths and newly confirmed cases</b>
 
 ![](overview.png)
 
